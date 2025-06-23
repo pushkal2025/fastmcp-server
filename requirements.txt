@@ -4,7 +4,6 @@ aiosignal==1.3.2
 annotated-types==0.7.0
 anthropic==0.52.0
 anyio==4.9.0
-appnope @ file:///home/conda/feedstock_root/build_artifacts/appnope_1733332318622/work
 arxiv==2.2.0
 asgiref==3.8.1
 asttokens @ file:///home/conda/feedstock_root/build_artifacts/asttokens_1733250440834/work
@@ -25,14 +24,12 @@ cssselect==1.3.0
 dataclasses-json==0.6.7
 debugpy @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_a5sm9dmihj/croot/debugpy_1736267550163/work
 decorator @ file:///home/conda/feedstock_root/build_artifacts/decorator_1740384970518/work
-Deprecated==1.2.18
+
 distro==1.9.0
 dotenv==0.9.9
-durationpy==0.10
-exceptiongroup @ file:///home/conda/feedstock_root/build_artifacts/exceptiongroup_1746947292760/work
-executing @ file:///home/conda/feedstock_root/build_artifacts/executing_1745502089858/work
+
 fastapi==0.115.9
-fastembed==0.7.0
+
 fastmcp==2.3.5
 feedparser==6.0.11
 filelock==3.18.0
