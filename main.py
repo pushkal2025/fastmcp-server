@@ -1,10 +1,5 @@
 
 
-# This is only for local development
-if __name__ == "__main__":
-    mcp.run(transport="streamable-http")
-
-
 import asyncio
 import logging
 import os
