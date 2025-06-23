@@ -45,13 +45,14 @@ def greet(name: str) -> str:
 
 
 if __name__ == "__main__":
-    logger.info(f" MCP server started on port {os.getenv('PORT', 8080)}")
+    port = int(os.environ.get("PORT", 8080))  # ✅ ensure it's an int
+    logger.info(f"✅ MCP server starting on 0.0.0.0:{port}")
     # Could also use 'sse' transport, host="0.0.0.0" required for Cloud Run.
     asyncio.run(
         mcp.run_async(
             transport="streamable-http", 
             host="0.0.0.0", 
-            port=os.getenv("PORT", 8080),
+            port=port,
         )
     )
 
